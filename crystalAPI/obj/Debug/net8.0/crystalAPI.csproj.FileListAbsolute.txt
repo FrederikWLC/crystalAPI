@@ -33,3 +33,4 @@ C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\refint\crystalAPI.dll
 C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\crystalAPI.pdb
 C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\crystalAPI.genruntimeconfig.cache
 C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\ref\crystalAPI.dll
+C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\crystalAPI.sourcelink.json

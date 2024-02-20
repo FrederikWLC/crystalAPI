@@ -11,28 +11,14 @@ JsonElement LoadJSONData(string fileName) {
 
 JsonElement pTableData = LoadJSONData("pTable.json").GetProperty("pTable");
 
-AtomType[] AtomTypes = new AtomType[pTableData.GetArrayLength()];
-
-int index = 0;
-foreach (JsonElement atom in pTableData.EnumerateArray()) {
-    
-    if (atom.TryGetProperty("atomic_number", out JsonElement number) && atom.TryGetProperty("atomic_mass", out JsonElement mass) && atom.TryGetProperty("radius", out JsonElement radiusObject)) {
-    if (radiusObject.TryGetProperty("empirical", out JsonElement radius)) {
-    
-    Console.WriteLine($"Number: {number}| Mass {mass} | Radius {radius}");
-
-    AtomTypes[index] = new AtomType(number.GetInt32(),mass.GetDouble(),radius.GetDouble());
-    } else {break;}}
-    index ++;
-
-}
-
 var CubicLatticeTypes = new[]
 {
     new Crystal.CubicLattice("Simple Cubic",1,6,2,Math.PI/6,[1,0,0],[1,0,0]), 
     new Crystal.CubicLattice("Body Centered Cubic",2,8,4/Math.Sqrt(3),Math.PI*Math.Sqrt(3)/8,[1,1,1],[1,1,0]),
     new Crystal.CubicLattice("Face Centered Cubic",4,12,4/Math.Sqrt(2),Math.PI*Math.Sqrt(2)/6,[1,1,0],[1,1,1])
 };
+
+Lattice UnknownLatticeType = new Lattice("Unknown",0,0,1,[0,0,0],[0,0,0]);
 
 var TetragonalLatticeTypes = new[]
 {
@@ -58,6 +44,37 @@ var TriclinicLatticeTypes = new[]
 {
     "Simple Triclinic"
 };
+
+string getStructAbbrev(string structName) {
+    Dictionary<string, string> StructNamesToAbbrevs = new Dictionary<string, string> { { "Simple Cubic", "sc"}, { "Body Centered Cubic", "bcc" }, { "Face Centered Cubic", "fcc" } };
+    string? Abbrev;
+    StructNamesToAbbrevs.TryGetValue(structName, out Abbrev);
+    return Abbrev != null? Abbrev : "unknown";
+}
+
+Lattice getLatticeObject(string abbrev) {
+    Dictionary<string, Lattice> StructAbbrevsToObject = new Dictionary<string, Lattice> { {"sc", CubicLatticeTypes[0]}, { "bcc", CubicLatticeTypes[1] }, { "fcc", CubicLatticeTypes[2] } };
+    Lattice? LatticeType;
+    StructAbbrevsToObject.TryGetValue(abbrev, out LatticeType);
+    return LatticeType != null? LatticeType : UnknownLatticeType;
+}
+
+AtomType[] AtomTypes = new AtomType[pTableData.GetArrayLength()];
+
+int index = 0;
+foreach (JsonElement atom in pTableData.EnumerateArray()) {
+    
+    if (atom.TryGetProperty("atomic_number", out JsonElement number) && atom.TryGetProperty("atomic_mass", out JsonElement mass) && atom.TryGetProperty("radius", out JsonElement radiusObject)) {
+    if (radiusObject.TryGetProperty("empirical", out JsonElement radius) && atom.TryGetProperty("crystal_structure", out JsonElement structure)) {
+
+    
+    Console.WriteLine($"Number: {number}| Mass {mass} | Radius {radius} | Structure {structure}");
+
+    AtomTypes[index] = new AtomType(number.GetInt32(),mass.GetDouble(),radius.GetDouble(),getLatticeObject(getStructAbbrev(structure.GetString())));
+    } else {break;}}
+    index ++;
+
+}
 
 var builder = WebApplication.CreateBuilder(args);
 

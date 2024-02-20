@@ -183,7 +183,7 @@
       "cpk_hex": "d9ffff",
       "critical_pressure": 0.227,
       "critical_temperature": 5.19,
-      "crystal_structure": "Face-centered Cubic",
+      "crystal_structure": "Face Centered Cubic",
       "density": {
         "stp": 0.1785
       },
@@ -269,7 +269,7 @@
       "cpk_hex": "cc80ff",
       "critical_pressure": 67,
       "critical_temperature": 3223,
-      "crystal_structure": "Body-centered Cubic",
+      "crystal_structure": "Body Centered Cubic",
       "density": {
         "stp": 535,
         "liquid": 512
@@ -744,7 +744,7 @@
       "cpk_hex": "ff0d0d",
       "critical_pressure": 5.043,
       "critical_temperature": 154.59,
-      "crystal_structure": "Base-centered Monoclinic",
+      "crystal_structure": "Base Centered Monoclinic",
       "density": {
         "stp": 1.429
       },
@@ -832,7 +832,7 @@
       "cpk_hex": "90e050",
       "critical_pressure": 5.172,
       "critical_temperature": 144.13,
-      "crystal_structure": "Base-centered Monoclinic",
+      "crystal_structure": "Base Centered Monoclinic",
       "density": {
         "stp": 1.696
       },
@@ -911,7 +911,7 @@
       "cpk_hex": "b3e3f5",
       "critical_pressure": 2.76,
       "critical_temperature": 44.4,
-      "crystal_structure": "Face-centered Cubic",
+      "crystal_structure": "Face Centered Cubic",
       "density": {
         "stp": 0.9
       },
@@ -998,7 +998,7 @@
       "cpk_hex": "ab5cf2",
       "critical_pressure": 35,
       "critical_temperature": 2573,
-      "crystal_structure": "Body-centered Cubic",
+      "crystal_structure": "Body Centered Cubic",
       "density": {
         "stp": 968,
         "liquid": 927
@@ -1195,7 +1195,7 @@
         "electric": 38
       },
       "cpk_hex": "bfa6a6",
-      "crystal_structure": "Face-centered Cubic",
+      "crystal_structure": "Face Centered Cubic",
       "density": {
         "stp": 2700,
         "liquid": 2375
@@ -1483,7 +1483,7 @@
       "cpk_hex": "ffff30",
       "critical_pressure": 20.7,
       "critical_temperature": 1314,
-      "crystal_structure": "Face-centered Orthorhombic",
+      "crystal_structure": "Face Centered Orthorhombic",
       "density": {
         "stp": 1960,
         "liquid": 1819
@@ -1669,7 +1669,7 @@
       "cpk_hex": "80d1e3",
       "critical_pressure": 4.898,
       "critical_temperature": 150.87,
-      "crystal_structure": "Face-centered Cubic",
+      "crystal_structure": "Face Centered Cubic",
       "density": {
         "stp": 1.784
       },
@@ -1756,7 +1756,7 @@
       "cpk_hex": "8f40d4",
       "critical_pressure": 16,
       "critical_temperature": 2223,
-      "crystal_structure": "Body-centered Cubic",
+      "crystal_structure": "Body Centered Cubic",
       "density": {
         "stp": 856,
         "liquid": 828
@@ -1850,7 +1850,7 @@
         "electric": 29
       },
       "cpk_hex": "3dff00",
-      "crystal_structure": "Face-centered Cubic",
+      "crystal_structure": "Face Centered Cubic",
       "density": {
         "stp": 1550,
         "liquid": 1378
@@ -2140,7 +2140,7 @@
         "electric": 5
       },
       "cpk_hex": "a6a6ab",
-      "crystal_structure": "Body-centered Cubic",
+      "crystal_structure": "Body Centered Cubic",
       "density": {
         "stp": 6110,
         "liquid": 5500
@@ -2240,7 +2240,7 @@
         "electric": 7.9
       },
       "cpk_hex": "8a99c7",
-      "crystal_structure": "Body-centered Cubic",
+      "crystal_structure": "Body Centered Cubic",
       "density": {
         "stp": 7190,
         "liquid": 6300
@@ -2339,7 +2339,7 @@
         "electric": 0.62
       },
       "cpk_hex": "9c7ac7",
-      "crystal_structure": "Body-centered Cubic",
+      "crystal_structure": "Body Centered Cubic",
       "density": {
         "stp": 7470,
         "liquid": 5950
@@ -2437,7 +2437,7 @@
         "electric": 10
       },
       "cpk_hex": "e06633",
-      "crystal_structure": "Body-centered Cubic",
+      "crystal_structure": "Body Centered Cubic",
       "curie_point": 1043,
       "density": {
         "stp": 7874,
@@ -2626,7 +2626,7 @@
         "electric": 14
       },
       "cpk_hex": "50d050",
-      "crystal_structure": "Face-centered Cubic",
+      "crystal_structure": "Face Centered Cubic",
       "curie_point": 631,
       "density": {
         "stp": 8908,
@@ -2723,7 +2723,7 @@
         "electric": 59
       },
       "cpk_hex": "c88033",
-      "crystal_structure": "Face-centered Cubic",
+      "crystal_structure": "Face Centered Cubic",
       "density": {
         "stp": 8960,
         "liquid": 8020
@@ -3015,7 +3015,7 @@
         "electric": 0.002
       },
       "cpk_hex": "668f8f",
-      "crystal_structure": "Face-centered Cubic",
+      "crystal_structure": "Face Centered Cubic",
       "density": {
         "stp": 5323,
         "liquid": 5600
@@ -3389,7 +3389,7 @@
       "cpk_hex": "5cb8d1",
       "critical_pressure": 5.5,
       "critical_temperature": 209.41,
-      "crystal_structure": "Face-centered Cubic",
+      "crystal_structure": "Face Centered Cubic",
       "density": {
         "stp": 3.75
       },
@@ -3477,7 +3477,7 @@
       "cpk_hex": "702eb0",
       "critical_pressure": 16,
       "critical_temperature": 2093,
-      "crystal_structure": "Body-centered Cubic",
+      "crystal_structure": "Body Centered Cubic",
       "density": {
         "stp": 1532,
         "liquid": 1460
@@ -3570,7 +3570,7 @@
         "electric": 7.7
       },
       "cpk_hex": "00ff00",
-      "crystal_structure": "Face-centered Cubic",
+      "crystal_structure": "Face Centered Cubic",
       "density": {
         "stp": 2630,
         "liquid": 2375
@@ -3857,7 +3857,7 @@
         "electric": 6.7
       },
       "cpk_hex": "73c2c9",
-      "crystal_structure": "Body-centered Cubic",
+      "crystal_structure": "Body Centered Cubic",
       "density": {
         "stp": 8570
       },
@@ -3956,7 +3956,7 @@
         "electric": 20
       },
       "cpk_hex": "54b5b5",
-      "crystal_structure": "Body-centered Cubic",
+      "crystal_structure": "Body Centered Cubic",
       "density": {
         "stp": 10280,
         "liquid": 9330
@@ -4232,7 +4232,7 @@
         "electric": 23
       },
       "cpk_hex": "0a7d8c",
-      "crystal_structure": "Face-centered Cubic",
+      "crystal_structure": "Face Centered Cubic",
       "density": {
         "stp": 12450,
         "liquid": 10700
@@ -4329,7 +4329,7 @@
         "electric": 10
       },
       "cpk_hex": "006985",
-      "crystal_structure": "Face-centered Cubic",
+      "crystal_structure": "Face Centered Cubic",
       "density": {
         "stp": 12023,
         "liquid": 10380
@@ -4427,7 +4427,7 @@
         "electric": 62
       },
       "cpk_hex": "c0c0c0",
-      "crystal_structure": "Face-centered Cubic",
+      "crystal_structure": "Face Centered Cubic",
       "density": {
         "stp": 10490,
         "liquid": 9320
@@ -5098,7 +5098,7 @@
       "cpk_hex": "429eb0",
       "critical_pressure": 5.841,
       "critical_temperature": 289.77,
-      "crystal_structure": "Face-centered Cubic",
+      "crystal_structure": "Face Centered Cubic",
       "density": {
         "stp": 5.9
       },
@@ -5187,7 +5187,7 @@
       "cpk_hex": "57178f",
       "critical_pressure": 9.4,
       "critical_temperature": 1938,
-      "crystal_structure": "Body-centered Cubic",
+      "crystal_structure": "Body Centered Cubic",
       "density": {
         "stp": 1879,
         "liquid": 1843
@@ -5280,7 +5280,7 @@
         "electric": 2.9
       },
       "cpk_hex": "00c900",
-      "crystal_structure": "Body-centered Cubic",
+      "crystal_structure": "Body Centered Cubic",
       "density": {
         "stp": 3510,
         "liquid": 3338
@@ -5763,6 +5763,7 @@
         "by": "Chien Shiung Wu",
         "location": "The United States"
       },
+      "crystal_structure": "Double Hexagonal",
       "electrical_type": "Conductor",
       "electron_affinity": 12.45,
       "electron_configuration": "1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f⁵",
@@ -5922,7 +5923,7 @@
         "electric": 1.1
       },
       "cpk_hex": "61ffc7",
-      "crystal_structure": "Body-centered Cubic",
+      "crystal_structure": "Body Centered Cubic",
       "density": {
         "stp": 5244,
         "liquid": 5130
@@ -6582,7 +6583,7 @@
         "electric": 3.6
       },
       "cpk_hex": "00bf38",
-      "crystal_structure": "Face-centered Cubic",
+      "crystal_structure": "Face Centered Cubic",
       "density": {
         "stp": 6570,
         "liquid": 6210
@@ -6872,7 +6873,7 @@
         "electric": 7.7
       },
       "cpk_hex": "4da6ff",
-      "crystal_structure": "Body-centered Cubic",
+      "crystal_structure": "Body Centered Cubic",
       "density": {
         "stp": 16650,
         "liquid": 15000
@@ -6972,7 +6973,7 @@
         "electric": 20
       },
       "cpk_hex": "2194d6",
-      "crystal_structure": "Body-centered Cubic",
+      "crystal_structure": "Body Centered Cubic",
       "density": {
         "stp": 19250,
         "liquid": 17600
@@ -7261,7 +7262,7 @@
         "electric": 21
       },
       "cpk_hex": "175487",
-      "crystal_structure": "Face-centered Cubic",
+      "crystal_structure": "Face Centered Cubic",
       "density": {
         "stp": 22560,
         "liquid": 19000
@@ -7359,7 +7360,7 @@
         "electric": 9.4
       },
       "cpk_hex": "d0d0e0",
-      "crystal_structure": "Face-centered Cubic",
+      "crystal_structure": "Face Centered Cubic",
       "density": {
         "stp": 21450,
         "liquid": 19770
@@ -7458,7 +7459,7 @@
         "electric": 45
       },
       "cpk_hex": "ffd123",
-      "crystal_structure": "Face-centered Cubic",
+      "crystal_structure": "Face Centered Cubic",
       "density": {
         "stp": 19300,
         "liquid": 17310
@@ -7749,7 +7750,7 @@
         "electric": 4.8
       },
       "cpk_hex": "575961",
-      "crystal_structure": "Face-centered Cubic",
+      "crystal_structure": "Face Centered Cubic",
       "density": {
         "stp": 11340,
         "liquid": 10660
@@ -7847,7 +7848,7 @@
         "electric": 0.77
       },
       "cpk_hex": "9e4fb5",
-      "crystal_structure": "Base-centered Monoclinic",
+      "crystal_structure": "Base Centered Monoclinic",
       "decay_mode": "AlphaEmission",
       "density": {
         "stp": 9780,
@@ -8014,6 +8015,7 @@
         "by": "Dale R. Corson",
         "location": "The United States"
       },
+      "crystal_structure": "Unknown",
       "electron_affinity": 233,
       "electron_configuration": "1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁵",
       "electron_configuration_semantic": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁵",
@@ -8133,6 +8135,7 @@
         "by": "Marguerite Perey",
         "location": "France"
       },
+      "crystal_structure": "Unknown",
       "electron_affinity": 46.89,
       "electron_configuration": "1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s¹",
       "electron_configuration_semantic": "[Rn] 7s¹",
@@ -8184,7 +8187,7 @@
         "electric": 1
       },
       "cpk_hex": "007d00",
-      "crystal_structure": "Body-centered Cubic",
+      "crystal_structure": "Body Centered Cubic",
       "decay_mode": "AlphaEmission",
       "density": {
         "stp": 5000
@@ -8250,7 +8253,7 @@
         "thermal": 12
       },
       "cpk_hex": "70abfa",
-      "crystal_structure": "Face-centered Cubic",
+      "crystal_structure": "Face Centered Cubic",
       "decay_mode": "BetaDecay",
       "density": {
         "stp": 10070
@@ -8325,7 +8328,7 @@
         "electric": 6.7
       },
       "cpk_hex": "00baff",
-      "crystal_structure": "Face-centered Cubic",
+      "crystal_structure": "Face Centered Cubic",
       "decay_mode": "AlphaEmission",
       "density": {
         "stp": 11724
