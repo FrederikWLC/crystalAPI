@@ -34,3 +34,8 @@ C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\crystalAPI.pdb
 C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\crystalAPI.genruntimeconfig.cache
 C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\ref\crystalAPI.dll
 C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\crystalAPI.sourcelink.json
+C:\Users\frede\crystalAPI\crystalAPI\bin\Debug\net8.0\crystalAPI.staticwebassets.runtime.json
+C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\crystalAPI.RazorAssemblyInfo.cache
+C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\crystalAPI.RazorAssemblyInfo.cs
+C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\scopedcss\projectbundle\crystalAPI.bundle.scp.css

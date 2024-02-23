@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("crystalAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92b3f98ecad99d7633a3d3b5c4e46e0ef15f5942")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+561af72ad4fd610c1fa1bdcde0a4c9f691a9b587")]
 [assembly: System.Reflection.AssemblyProductAttribute("crystalAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("crystalAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
