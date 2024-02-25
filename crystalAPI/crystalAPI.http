@@ -1,4 +1,4 @@
-@crystalAPI_HostAddress = http://localhost:5081
+@crystalAPI_HostAddress = http://localhost:5090
 
 GET {{crystalAPI_HostAddress}}/weatherforecast/
 Accept: application/json

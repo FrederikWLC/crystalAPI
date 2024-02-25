@@ -8,7 +8,6 @@ C:\Users\frede\crystalAPI\crystalAPI\bin\Debug\net8.0\crystalAPI.dll
 C:\Users\frede\crystalAPI\crystalAPI\bin\Debug\net8.0\crystalAPI.pdb
 C:\Users\frede\crystalAPI\crystalAPI\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\frede\crystalAPI\crystalAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\frede\crystalAPI\crystalAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\frede\crystalAPI\crystalAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\frede\crystalAPI\crystalAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\frede\crystalAPI\crystalAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -19,6 +18,7 @@ C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\crystalAPI.AssemblyInfo.cs
 C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\crystalAPI.csproj.CoreCompileInputs.cache
 C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\crystalAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\crystalAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\crystalAPI.sourcelink.json
 C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\staticwebassets\msbuild.crystalAPI.Microsoft.AspNetCore.StaticWebAssets.props
@@ -27,15 +27,9 @@ C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\staticwebassets\msbuild.bu
 C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.crystalAPI.props
 C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\scopedcss\bundle\crystalAPI.styles.css
-C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\crystalAPI.csproj.CopyComplete
 C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\crystalAPI.dll
 C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\refint\crystalAPI.dll
 C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\crystalAPI.pdb
 C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\crystalAPI.genruntimeconfig.cache
 C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\ref\crystalAPI.dll
-C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\crystalAPI.sourcelink.json
-C:\Users\frede\crystalAPI\crystalAPI\bin\Debug\net8.0\crystalAPI.staticwebassets.runtime.json
-C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\crystalAPI.RazorAssemblyInfo.cache
-C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\crystalAPI.RazorAssemblyInfo.cs
-C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\scopedcss\projectbundle\crystalAPI.bundle.scp.css
+C:\Users\frede\crystalAPI\crystalAPI\obj\Debug\net8.0\crystalAPI.csproj.Up2Date

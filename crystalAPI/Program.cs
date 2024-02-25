@@ -1,5 +1,7 @@
 using Crystal;
 using System.Text.Json;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 JsonElement LoadJSONData(string fileName) {
     using StreamReader r = File.OpenText(fileName);
@@ -77,29 +79,23 @@ foreach (JsonElement atom in pTableData.EnumerateArray()) {
 }
 
 var builder = WebApplication.CreateBuilder(args);
-
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddRazorPages();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 
 var app = builder.Build();
 
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    //app.UseDeveloperExceptionPage();
-
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-app.UseRouting();
-
-app.UseAuthorization();
-
-app.MapRazorPages();
 
 
 
@@ -117,12 +113,15 @@ app.MapGet("/cubes", () =>
 .WithName("GetCubicLattices")
 .WithOpenApi();
 
-app.MapGet("/cubicCrystalMassDensity", (int atomicNum,string cubicType) =>
+app.MapGet("/cubicCrystalMassDensity/{atomicNum:int}/{cubicType}", Results<BadRequest,Ok<double>> (int atomicNum,string cubicType) =>
 {   
     new Dictionary<string, CubicLattice> { { "sc", CubicLatticeTypes[0]}, { "bcc", CubicLatticeTypes[1] }, { "fcc", CubicLatticeTypes[2] } }.TryGetValue(cubicType,out CubicLattice? CubicType);
+    if (CubicType == null || atomicNum <= 0) {
+        return TypedResults.BadRequest();
+    }
     AtomType Atom = AtomTypes[atomicNum-1];
     double P = CubicType.APF*Atom.PTheo;
-    return P;
+    return TypedResults.Ok(P);
 })
 .WithName("GetCubicCrystalMassDensity")
 .WithOpenApi();
@@ -136,5 +135,3 @@ app.MapGet("/ptable", () =>
 .WithOpenApi();
 
 app.Run();
-
-

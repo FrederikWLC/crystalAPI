@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "FVw6N9oD7IXEl1cZ0U7buhDEKxFtUWaA7IAhKhCQS9dq30iu1h2AqKdkbmXyXCJ4Fbvv4Q14R8O+OlB8mj8apQ==",
+  "dgSpecHash": "3QfrRtU4SGGNmlC3JDaoY3zh7kD5Q5ajkyoppgW/3GJJS6H2zsq4VncU3gOHAzxRtC4kURWoPRMyLE78XKzmow==",
   "success": true,
   "projectFilePath": "C:\\Users\\frede\\crystalAPI\\crystalAPI\\crystalAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\frede\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.1\\microsoft.aspnetcore.openapi.8.0.1.nupkg.sha512",
     "C:\\Users\\frede\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\frede\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
-    "C:\\Users\\frede\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\frede\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\frede\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\frede\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
